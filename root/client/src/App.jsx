@@ -17,7 +17,7 @@ function App() {
         <Route path="/collections" element={<Collections />} />
         <Route path="/learn" element={<Learn />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/login" element={<Join />} />
+        <Route path="/join" element={<Join />} />
       </Routes>
     </>
   );
