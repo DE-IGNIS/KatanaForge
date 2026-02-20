@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "1afe4fee-9ac1-4d93-9a88-2ecbea593de1",
+      "name": "Sabimaru",
+      "price": 50000,
+      "currency": "INR",
+      "quantity": 10,
+      "category": "Katanas",
+      "collections": [
+        "anime"
+      ],
+      "description": "A high-quality ninja-grade katana with excellent balance and razor-sharp edge. Featured in several anime series.",
+      "rating": 4,
+      "return_allowed": "",
+      "image_url": "https://i.etsystatic.com/56934914/r/il/0e9599/6855105730/il_794xN.6855105730_ccjz.jpg"
+    },
+    {
+      "id": "241cda25-0a6f-46cc-930a-43505efc123d",
+      "name": "Muramasa",
+      "price": 12000,
+      "currency": "INR",
+      "quantity": 3,
+      "category": "Katanas",
+      "collections": [
+        "sengoku-era"
+      ],
+      "description": "A high-quality ninja-grade katana with excellent balance and razor-sharp edge. Featured in several anime series.",
+      "rating": 5,
+      "return_allowed": false,
+      "image_url": "https://i.etsystatic.com/59888335/r/il/85bbd2/7237076898/il_1588xN.7237076898_janh.jpg"
+    },
+    {
+      "id": "",
+      "name": "Sasuke Katana",
+      "price": 25000,
+      "currency": "INR",
+      "quantity": 2,
+      "category": "Anime Sword",
+      "collections": "Uchiha Special",
+      "description": "Sasuke Uchiha's lightning sword ",
+      "rating": 4,
+      "return_allowed": "False",
+      "image_url": "https://i.etsystatic.com/64200875/r/il/cd6c29/7656693260/il_1588xN.7656693260_lhyb.jpg"
+    },
+    {
+      "id": "",
+      "name": " Katana - Giyu Tomioka",
+      "price": 30000,
+      "currency": "INR",
+      "quantity": 3,
+      "category": "Anime Sword",
+      "collections": "Demon Slayer Special",
+      "description": "Signature Nichirin Blade from Demon Slayer: Kimetsu no Yaiba, symbolizing his mastery of Water Breathing techniques.  The sword features a distinctive deep blue blade, representing the fluidity and calm precision of his combat style.  It is engraved with the kanji 「悪鬼滅殺」 (\"Destroyer of Demons\"), a common inscription on Demon Slayer Corps weapons",
+      "rating": 5,
+      "return_allowed": "False",
+      "image_url": "https://i.etsystatic.com/56934914/r/il/3bfe7b/7700907210/il_1588xN.7700907210_7yru.jpg"
+    }
+  ]
+}
