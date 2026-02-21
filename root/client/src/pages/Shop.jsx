@@ -28,7 +28,6 @@ function Shop() {
 
       {data.length > 0 ? (
         <>
-          {/* ── Results header ── */}
           <div className="flex items-baseline gap-2 mb-4">
             <h2 className="text-xl font-bold text-gray-900">Real Katana</h2>
             <span className="text-sm text-gray-500">
@@ -37,7 +36,6 @@ function Shop() {
             <span className="text-sm text-gray-400 italic">with ads</span>
           </div>
 
-          {/* ── Product grid ── */}
           <div className="grid grid-cols-4 gap-3">
             {data.map((item, index) => (
               <div key={index} className="flex justify-center">

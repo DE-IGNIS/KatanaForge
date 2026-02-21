@@ -449,7 +449,6 @@ export default function Learn() {
       `}</style>
 
       <div className="learn-page">
-        {/* ── HERO ── */}
         <section className="learn-hero">
           <div className="learn-badge">
             <span className="learn-badge-dot" />7 Steps · Beginner Friendly
@@ -465,7 +464,6 @@ export default function Learn() {
           </p>
         </section>
 
-        {/* ── STEPS EXPLORER ── */}
         <section
           style={{ background: "#fff", borderBottom: "1px solid #e8e8e8" }}
         >
@@ -477,7 +475,6 @@ export default function Learn() {
             </div>
 
             <div className="grid md:grid-cols-[220px_1fr] gap-6 items-start">
-              {/* Left rail — step tabs */}
               <div className="step-rail">
                 {steps.map((s, i) => (
                   <button
@@ -494,7 +491,6 @@ export default function Learn() {
                 ))}
               </div>
 
-              {/* Right panel */}
               <div className="step-panel">
                 <div className="step-panel-num">{steps[activeStep].number}</div>
                 <div className="step-tag">{steps[activeStep].tag}</div>
@@ -568,7 +564,6 @@ export default function Learn() {
           </div>
         </section>
 
-        {/* ── GLOSSARY ── */}
         <section className="max-w-4xl mx-auto px-5 py-14">
           <div className="mb-6">
             <p className="eyebrow">Key Terms</p>
@@ -629,7 +624,6 @@ export default function Learn() {
           )}
         </section>
 
-        {/* ── CTA ── */}
         <div className="max-w-4xl mx-auto px-5 pb-14">
           <div className="cta-strip">
             <h2>Ready to own a piece of this craft?</h2>

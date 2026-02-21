@@ -4,6 +4,5 @@ const userControllers = require("../controllers/userController");
 
 router.get("/list", userControllers.getlist);
 router.post("/data",userControllers.updatelist);
-// router.get()
 
 module.exports = router;

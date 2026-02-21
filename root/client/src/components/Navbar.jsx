@@ -5,7 +5,7 @@ import logo from "../assets/react.svg";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-const navItems = ["Home", "Shop", "Collections", "Learn", "Dashboard"];
+  const navItems = ["Home", "Shop", "Learn", "Dashboard"];
 
   const linkClass = ({ isActive }) =>
     `relative text-sm font-medium transition-colors duration-150 whitespace-nowrap pb-1 group
@@ -193,7 +193,6 @@ const navItems = ["Home", "Shop", "Collections", "Learn", "Dashboard"];
           </button>
         </div>
 
-        {/* Mobile Menu */}
         {menuOpen && (
           <div
             className="md:hidden mobile-menu-enter bg-white px-4 pb-5 pt-2"

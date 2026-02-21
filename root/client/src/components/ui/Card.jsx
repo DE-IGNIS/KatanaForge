@@ -11,9 +11,7 @@ export default function Card({
   return (
     <div className="inline-block font-sans">
       <div className="relative w-64 bg-white rounded-2xl border border-red-100 shadow-md hover:shadow-xl hover:-translate-y-1.5 hover:scale-[1.02] transition-all duration-200 cursor-pointer overflow-hidden group">
-        {/* <span className="absolute top-3 left-3 z-10 bg-red-500 text-white text-[10px] font-extrabold uppercase tracking-widest px-3 py-0.5 rounded-full shadow-md shadow-red-200">
-          Featured
-        </span> */}
+
 
         <div className="w-full h-44 bg-red-50 flex items-center justify-center overflow-hidden">
           {image_url ? (

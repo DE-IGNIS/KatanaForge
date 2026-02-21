@@ -61,7 +61,6 @@ export default function Join() {
       className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4 py-10"
       style={{ fontFamily: "'Nunito Sans', sans-serif" }}
     >
-      {/* ── Brand mark ── */}
       <div className="flex flex-col items-center mb-6">
         <div className="text-4xl mb-2">⚔️</div>
         <h1
@@ -79,12 +78,10 @@ export default function Join() {
         className="w-full max-w-110"
         style={{ animation: "fadeUp 0.4s ease both" }}
       >
-        {/* ── CARD ── */}
         <div
           className="bg-white rounded-2xl border border-gray-200 overflow-hidden"
           style={{ boxShadow: "0 2px 24px rgba(0,0,0,0.07)" }}
         >
-          {/* Tabs */}
           <div className="grid grid-cols-2 border-b border-gray-200">
             {[
               ["login", "Log In"],
@@ -108,7 +105,6 @@ export default function Join() {
             ))}
           </div>
 
-          {/* Form body */}
           <div className="p-8">
             <h2
               className="text-[22px] font-extrabold text-gray-900 mb-1.5 tracking-tight"
@@ -122,7 +118,6 @@ export default function Join() {
                 : "Join thousands of katana enthusiasts worldwide."}
             </p>
 
-            {/* Social buttons */}
             <div className="flex flex-col gap-2.5 mb-5">
               {[
                 { Icon: GoogleIcon, label: "Continue with Google" },
@@ -139,7 +134,6 @@ export default function Join() {
               ))}
             </div>
 
-            {/* Divider */}
             <div className="flex items-center gap-3 mb-5">
               <div className="flex-1 h-px bg-gray-200" />
               <span className="text-[13px] font-semibold text-gray-400">
@@ -148,7 +142,6 @@ export default function Join() {
               <div className="flex-1 h-px bg-gray-200" />
             </div>
 
-            {/* Name row — signup only */}
             {!isLogin && (
               <div className="grid grid-cols-2 gap-3 mb-4">
                 {[
@@ -170,7 +163,6 @@ export default function Join() {
               </div>
             )}
 
-            {/* Email */}
             <div className="mb-4">
               <label className="block text-[13px] font-bold text-gray-900 mb-1.5">
                 Email Address
@@ -183,7 +175,6 @@ export default function Join() {
               />
             </div>
 
-            {/* Password */}
             <div className={isLogin ? "mb-1" : "mb-4"}>
               <label className="block text-[13px] font-bold text-gray-900 mb-1.5">
                 Password
@@ -196,7 +187,6 @@ export default function Join() {
               />
             </div>
 
-            {/* Forgot — login only */}
             {isLogin && (
               <div className="flex justify-end mb-5 mt-1">
                 <a
@@ -208,7 +198,6 @@ export default function Join() {
               </div>
             )}
 
-            {/* Terms — signup only */}
             {!isLogin && (
               <div className="flex items-start gap-2.5 mb-5 mt-1">
                 <input
@@ -241,7 +230,6 @@ export default function Join() {
               </div>
             )}
 
-            {/* Submit */}
             <button
               className="w-full py-3.5 bg-red-600 text-white text-[15px] font-extrabold rounded-xl border-none cursor-pointer hover:bg-red-700 hover:-translate-y-px active:translate-y-0 transition-all"
               style={{
@@ -252,7 +240,6 @@ export default function Join() {
               {isLogin ? "Log In" : "Create Free Account"}
             </button>
 
-            {/* Footer note */}
             <p className="text-center mt-5 text-[13px] text-gray-500 font-semibold">
               {isLogin ? (
                 <>
