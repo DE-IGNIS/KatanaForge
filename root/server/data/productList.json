@@ -31,7 +31,7 @@
       "image_url": "https://i.etsystatic.com/59888335/r/il/85bbd2/7237076898/il_1588xN.7237076898_janh.jpg"
     },
     {
-      "id": "",
+      "id": "e26b1e16-4e95-43c6-9c42-544770bb233c",
       "name": "Sasuke Katana",
       "price": 25000,
       "currency": "INR",
@@ -44,7 +44,7 @@
       "image_url": "https://i.etsystatic.com/64200875/r/il/cd6c29/7656693260/il_1588xN.7656693260_lhyb.jpg"
     },
     {
-      "id": "",
+      "id": "e26b1e16-4e95-43c6-9c42-524370bb233c",
       "name": " Katana - Giyu Tomioka",
       "price": 30000,
       "currency": "INR",
@@ -97,7 +97,7 @@
       "description": "Massive black blade wielded by Ichigo Kurosaki. Represents raw spiritual power and speed.",
       "rating": 4,
       "return_allowed": false,
-      "image_url": "https://i.etsystatic.com/59888335/r/il/85bbd2/7237076898/il_1588xN.7237076898_janh.jpg"
+      "image_url": "https://i.etsystatic.com/60995968/r/il/612cbf/7657055112/il_1588xN.7657055112_hny3.jpg"
     },
     {
       "id": "a3b9e7c2-91f4-4c3d-9a77-22e4b7c5d999",

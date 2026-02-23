@@ -3,7 +3,6 @@ const app = express();
 const cors = require("cors");
 
 const userRoutes = require("./routes/userRoutes");
-// const authRoutes = require("./routes/authRoutes");
 
 app.use(cors());
 
@@ -15,7 +14,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use("/api", userRoutes);
-// app.use("/admins", authRoutes);
 
 app.use((req, res) => {
   res.status(404).json({
