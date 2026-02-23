@@ -4,11 +4,15 @@ const cors = require("cors");
 
 const userRoutes = require("./routes/userRoutes");
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+  }),
+);
 
 require("dotenv").config();
 
-const PORT = process.env.PORT | "8000";
+const PORT = process.env.PORT || "5000";
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
