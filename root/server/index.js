@@ -6,7 +6,7 @@ const userRoutes = require("./routes/userRoutes");
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://katanaforge-frontend.onrender.com",
   }),
 );
 

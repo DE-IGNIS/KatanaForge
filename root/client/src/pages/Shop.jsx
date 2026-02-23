@@ -8,7 +8,7 @@ function Shop() {
 
   const fetchData = async () => {
     try {
-      const res = await axios.get("http://localhost:8144/api/list");
+      const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/list`);
       setData(res.data.products);
     } catch (err) {
       console.error("Error fetching data:", err);
